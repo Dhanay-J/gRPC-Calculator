@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package calcPackage;
+
+service Calc {
+    rpc Add (CalcReq) returns (CalcResp);
+    rpc Sub (CalcReq) returns (CalcResp);
+    rpc Mul (CalcReq) returns (CalcResp);
+    rpc Div (CalcReq) returns (CalcResp);
+
+}
+
+message _void {}
+
+message CalcReq {
+    double x = 1 ;
+    double y = 2 ;
+}
+
+message CalcResp{
+    double result = 1;
+}
+
+
