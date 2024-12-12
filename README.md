@@ -84,7 +84,3 @@ py calc_client.py
 - If you encounter any issues, check that all dependencies are correctly installed and that the `.proto` file is properly compiled.
 
 Feel free to modify the code to extend the functionality of the calculator API or add additional features.
-
-```
-
-```
